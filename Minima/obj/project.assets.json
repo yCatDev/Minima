@@ -238,69 +238,6 @@
             "rid": "win-x86"
           }
         }
-      },
-      "SFML.Audio/2.5.0": {
-        "type": "package",
-        "dependencies": {
-          "CSFML": "2.5.0",
-          "SFML.Graphics": "2.5.0",
-          "SFML.System": "2.5.0",
-          "SFML.Window": "2.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/SFML.Audio.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SFML.Audio.dll": {}
-        }
-      },
-      "SFML.Graphics/2.5.0": {
-        "type": "package",
-        "dependencies": {
-          "CSFML": "2.5.0",
-          "SFML.System": "2.5.0",
-          "SFML.Window": "2.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/SFML.Graphics.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SFML.Graphics.dll": {}
-        }
-      },
-      "SFML.Net/2.5.0": {
-        "type": "package",
-        "dependencies": {
-          "SFML.Audio": "2.5.0",
-          "SFML.Graphics": "2.5.0",
-          "SFML.System": "2.5.0",
-          "SFML.Window": "2.5.0"
-        }
-      },
-      "SFML.System/2.5.0": {
-        "type": "package",
-        "dependencies": {
-          "CSFML": "2.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/SFML.System.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SFML.System.dll": {}
-        }
-      },
-      "SFML.Window/2.5.0": {
-        "type": "package",
-        "dependencies": {
-          "CSFML": "2.5.0",
-          "SFML.System": "2.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/SFML.Window.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SFML.Window.dll": {}
-        }
       }
     }
   },
@@ -373,74 +310,11 @@
         "runtimes/win-x86/native/csfml-Window.dll",
         "runtimes/win-x86/native/openal32.dll"
       ]
-    },
-    "SFML.Audio/2.5.0": {
-      "sha512": "M5EIksRefT3nsLT32oEpESStsnlixR+YjKS6fUMl+vDQ3gdMaV4jc84pg3kbfM9w4RYKAyH6OWV4bzDU5FNZyA==",
-      "type": "package",
-      "path": "sfml.audio/2.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/SFML.Audio.dll",
-        "lib/netstandard2.0/SFML.Audio.xml",
-        "sfml.audio.2.5.0.nupkg.sha512",
-        "sfml.audio.nuspec"
-      ]
-    },
-    "SFML.Graphics/2.5.0": {
-      "sha512": "77Nuz0qmK2q2+901J0439LC6qFNw5VT0qjqqA7zSaM0WrV7K/UozBjfO/ROCY0iW+w7IEqPYiXBK4A7xO5nvsQ==",
-      "type": "package",
-      "path": "sfml.graphics/2.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/SFML.Graphics.dll",
-        "lib/netstandard2.0/SFML.Graphics.xml",
-        "sfml.graphics.2.5.0.nupkg.sha512",
-        "sfml.graphics.nuspec"
-      ]
-    },
-    "SFML.Net/2.5.0": {
-      "sha512": "XVxrtNX6FJOpI7OzsTlKUKI92C8CKVe1rYtNbyj9fdIdZgidwpK/kExhxH5XYxpJ5C1/EUsGdOrGx4BCfsQvbw==",
-      "type": "package",
-      "path": "sfml.net/2.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "sfml.net.2.5.0.nupkg.sha512",
-        "sfml.net.nuspec"
-      ]
-    },
-    "SFML.System/2.5.0": {
-      "sha512": "vdlmLjPRhOD25WX/L2wP3F9dg/3mTj6hhyHkqtleC0fA5WNr71F0ijLbvs32BBpow5OoyU7BryKMjy1WNmU0GQ==",
-      "type": "package",
-      "path": "sfml.system/2.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/SFML.System.dll",
-        "lib/netstandard2.0/SFML.System.xml",
-        "sfml.system.2.5.0.nupkg.sha512",
-        "sfml.system.nuspec"
-      ]
-    },
-    "SFML.Window/2.5.0": {
-      "sha512": "KuQvC0TrsxzhFJw9hDvMAzKD8/12jvXjP7sC3UO5MSM0sy5sfYNTqQktnQ3ELAV+rP1cqRKLsvosBfMfl1HkRw==",
-      "type": "package",
-      "path": "sfml.window/2.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/SFML.Window.dll",
-        "lib/netstandard2.0/SFML.Window.xml",
-        "sfml.window.2.5.0.nupkg.sha512",
-        "sfml.window.nuspec"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "SFML.Net >= 2.5.0"
+      "CSFML >= 2.5.0"
     ]
   },
   "packageFolders": {
@@ -480,7 +354,7 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "SFML.Net": {
+          "CSFML": {
             "target": "Package",
             "version": "[2.5.0, )"
           }

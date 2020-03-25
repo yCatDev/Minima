@@ -1,0 +1,8 @@
+E:\CS\Minima\Minima\Minima\bin\Debug\netcoreapp3.1\Minima.deps.json
+E:\CS\Minima\Minima\Minima\bin\Debug\netcoreapp3.1\Minima.dll
+E:\CS\Minima\Minima\Minima\bin\Debug\netcoreapp3.1\Minima.pdb
+E:\CS\Minima\Minima\Minima\obj\Debug\netcoreapp3.1\Minima.csprojAssemblyReference.cache
+E:\CS\Minima\Minima\Minima\obj\Debug\netcoreapp3.1\Minima.AssemblyInfoInputs.cache
+E:\CS\Minima\Minima\Minima\obj\Debug\netcoreapp3.1\Minima.AssemblyInfo.cs
+E:\CS\Minima\Minima\Minima\obj\Debug\netcoreapp3.1\Minima.dll
+E:\CS\Minima\Minima\Minima\obj\Debug\netcoreapp3.1\Minima.pdb

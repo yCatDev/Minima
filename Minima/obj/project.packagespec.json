@@ -27,7 +27,7 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
-        "SFML.Net": {
+        "CSFML": {
           "target": "Package",
           "version": "[2.5.0, )"
         }
