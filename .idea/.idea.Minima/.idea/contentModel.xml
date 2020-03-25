@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\yCatDev\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\yCatDev\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Minima.498220970.00" t="ExcludeRecursive" />
+    <e p="E:\CS\Minima\Minima" t="IncludeFlat">
+      <e p="Minima" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Minima.cs" t="Include" />
+        <e p="Minima.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Minima.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Minima.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="YetAnotherSnake" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="YetAnotherSnake.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="YetAnotherSnake.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

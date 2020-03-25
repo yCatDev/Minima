@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minima", "Minima\Minima.csproj", "{A5466F1E-46AF-4FD0-A206-DEB2899E4562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnotherSnake", "YetAnotherSnake\YetAnotherSnake.csproj", "{05975963-FDB2-4D62-9623-65F685C7F0D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5466F1E-46AF-4FD0-A206-DEB2899E4562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5466F1E-46AF-4FD0-A206-DEB2899E4562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5466F1E-46AF-4FD0-A206-DEB2899E4562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5466F1E-46AF-4FD0-A206-DEB2899E4562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05975963-FDB2-4D62-9623-65F685C7F0D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05975963-FDB2-4D62-9623-65F685C7F0D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05975963-FDB2-4D62-9623-65F685C7F0D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05975963-FDB2-4D62-9623-65F685C7F0D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
