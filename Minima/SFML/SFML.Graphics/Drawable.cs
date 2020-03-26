@@ -1,4 +1,4 @@
-namespace SFML.Graphics
+﻿﻿namespace SFML.Graphics
 {
     ////////////////////////////////////////////////////////////
     /// <summary>

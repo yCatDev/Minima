@@ -11,6 +11,7 @@ namespace YetAnotherSnake
         static void Main(string[] args)
         {
             MinimaEngine.Minima minima = new MinimaEngine.Minima("Test");
+            MinimaEngine.Minima.Engine.SystemManager.RegisterSystem<MoveSystem>();
             FirstScene scene = new FirstScene("Scene");
             scene.LoadAndRun();
            

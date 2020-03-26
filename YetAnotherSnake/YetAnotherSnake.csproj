@@ -9,4 +9,8 @@
       <ProjectReference Include="..\Minima\Minima.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="CSFML" Version="2.5.0" />
+    </ItemGroup>
+
 </Project>

@@ -20,7 +20,7 @@ namespace MinimaEngine
 
         public virtual void Unload()
         {
-            Minima.engine.EntityManager.UnloadScene(_sceneGameObjects);
+            Minima.Engine.EntityManager.UnloadScene(_sceneGameObjects);
             _sceneGameObjects.Clear();
         }
 
@@ -32,7 +32,7 @@ namespace MinimaEngine
 
         public virtual void Run()
         {
-            Minima.engine.EntityManager.UploadScene(_sceneGameObjects);
+            Minima.Engine.EntityManager.UploadScene(_sceneGameObjects);
             _sceneGameObjects.Clear();
         }
 

@@ -1,16 +1,11 @@
-﻿using System;
+﻿﻿﻿using System;
 using SFML.Graphics;
 
 namespace Minima.SFML.Graphics
 {
-    public abstract class DrawObject: Transformable, Drawable
+    public interface IDrawObject
     {
-        protected DrawObject(in IntPtr zero)
-        : base(zero)
-        {
-        }
-
-        public abstract void Draw(RenderTarget target, RenderStates states);
-
+        public FloatRect GetGlobalBounds();
+        public Texture Texture { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-using System;
+﻿﻿using System;
 using System.Runtime.InteropServices;
 using System.Security;
 using System.Text;
@@ -15,7 +15,7 @@ namespace SFML.Graphics
     /// See also the note on coordinates and undistorted rendering in SFML.Graphics.Transformable.
     /// </remarks>
     ////////////////////////////////////////////////////////////
-    public class Text : DrawObject
+    public class Text : Transformable,Drawable, IDrawObject
     {
         ////////////////////////////////////////////////////////////
         /// <summary>
@@ -316,6 +316,8 @@ namespace SFML.Graphics
             return Transform.TransformRect(GetLocalBounds());
         }
 
+        public Texture Texture { get; set; }
+
         ////////////////////////////////////////////////////////////
         /// <summary>
         /// Provide a string describing the object
@@ -341,7 +343,7 @@ namespace SFML.Graphics
         /// <param name="target">Render target to draw to</param>
         /// <param name="states">Current render states</param>
         ////////////////////////////////////////////////////////////
-        public override void Draw(RenderTarget target, RenderStates states)
+        public void Draw(RenderTarget target, RenderStates states)
         {
             states.Transform *= Transform;
             RenderStates.MarshalData marshaledStates = states.Marshal();

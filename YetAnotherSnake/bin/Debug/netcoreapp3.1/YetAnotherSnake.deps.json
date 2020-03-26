@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "YetAnotherSnake/1.0.0": {
         "dependencies": {
+          "CSFML": "2.5.0",
           "Minima": "1.0.0"
         },
         "runtime": {

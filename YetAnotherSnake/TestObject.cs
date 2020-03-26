@@ -1,4 +1,5 @@
-﻿using Minima.Core;
+﻿using System;
+
 using MinimaEngine;
 using SFML.Graphics;
 
@@ -17,6 +18,7 @@ namespace YetAnotherSnake
                     Radius = 10f
                 }
             });
+            AddComponent(new TransformComponent());
         }
     }
 }

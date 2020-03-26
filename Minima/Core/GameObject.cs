@@ -29,6 +29,7 @@ namespace MinimaEngine
             else
             {
                 _components.Add(Component);
+                Component.Start();
                 return true;
             }
         }

@@ -376,7 +376,7 @@ namespace MinimaEngine
         
         public static void InitManager()
         {
-            var w = Minima.engine.Window;
+            var w = Minima.Engine.Window;
             w.KeyPressed += OnKeyPressed;
             w.KeyReleased += OnKeyReleased;
             w.MouseButtonPressed += OnMouseButtonPressed;

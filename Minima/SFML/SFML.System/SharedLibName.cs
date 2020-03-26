@@ -1,4 +1,4 @@
-namespace SFML.System
+﻿﻿namespace SFML.System
 {
     /// <summary>CSFML</summary>
     public static class CSFML

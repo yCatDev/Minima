@@ -1,7 +1,7 @@
 ﻿﻿using SFML.Graphics;
 using SFML.System;
 
-namespace SimpleX
+namespace MinimaEngine
 {
     public class Camera
     {

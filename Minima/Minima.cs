@@ -2,7 +2,6 @@
 using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
-using SimpleX;
 
 namespace MinimaEngine
 {
@@ -10,7 +9,7 @@ namespace MinimaEngine
     public class Minima
     {
         public const int FPS = 60;
-        public static Minima engine;
+        public static Minima Engine;
         public EntityManager EntityManager;
         public SystemManager SystemManager;
         public RenderWindow Window;
@@ -31,7 +30,7 @@ namespace MinimaEngine
             Window.Closed += (sender, e) => Quit();
             
             Camera = new Camera(Window);
-            engine = this;
+            Engine = this;
         }
         
         

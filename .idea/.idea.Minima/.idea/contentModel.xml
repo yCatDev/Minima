@@ -22,7 +22,6 @@
           <e p="Component.cs" t="Include" />
           <e p="Coroutines.cs" t="Include" />
           <e p="GameObject.cs" t="Include" />
-          <e p="IDrawable.cs" t="Include" />
           <e p="Managers" t="Include">
             <e p="EntityManager.cs" t="Include" />
             <e p="InputManager.cs" t="Include" />
@@ -32,7 +31,6 @@
           </e>
           <e p="Scene.cs" t="Include" />
           <e p="System.cs" t="Include" />
-          <e p="Utils.cs" t="Include" />
         </e>
         <e p="Minima.cs" t="Include" />
         <e p="Minima.csproj" t="IncludeRecursive" />
@@ -143,9 +141,13 @@
         </e>
         <e p="Program.cs" t="Include" />
         <e p="SecondScene.cs" t="Include" />
+        <e p="Systems" t="Include">
+          <e p="MoveSystem.cs" t="Include" />
+        </e>
         <e p="TestObject.cs" t="Include" />
         <e p="TestTestObject.cs" t="Include" />
         <e p="YetAnotherSnake.csproj" t="IncludeRecursive" />
+        <e p="YetAnotherSnake.csproj.DotSettings" t="Include" />
       </e>
     </e>
   </component>

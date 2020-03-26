@@ -1,4 +1,4 @@
-using System;
+﻿﻿using System;
 using SFML.System;
 
 namespace SFML.Graphics
