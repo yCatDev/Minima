@@ -1,43 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
-namespace MinimaEngine
+
+namespace MinimaFramework
 {
-    public abstract class GameObject
+    public class GameObject
     {
-        private HashSet<IComponent> _components;
-        
+        public ObjectID Id;
         public string Name;
-
-        public GameObject(string name, Scene scene)
+        public Dictionary<Type,GameComponent> Components;
+        
+        public GameObject(string name)
         {
-            _components = new HashSet<IComponent>();
+            Id = new ObjectID();
             Name = name;
-            scene.RegisterGameObject(this);
-        }
-
-        public virtual void Start()
-        {
             
+            Components = new Dictionary<Type, GameComponent>();
+            Minima.GetInstance().GameObjectManager.AddGameObject(this);
         }
 
-        public bool AddComponent<T>(T Component) where T: IComponent
+        public T GetComponent<T>() where T: GameComponent
+            => (T) Components[typeof(T)];
+        public void AddComponent<T>(T component) where T : GameComponent
         {
-            if (HasComponent<T>())
-                return false;
-            else
+            if (!Components.ContainsKey(typeof(T)))
             {
-                _components.Add(Component);
-                Component.Start();
-                return true;
+                Components.Add(typeof(T), component);
+                component.Init(this);
             }
         }
-
-        public bool HasComponent<T>()
-            => _components.OfType<T>().Any();
-
-        public T GetComponent<T>() where T : IComponent
-            => _components.OfType<T>().Cast<T>().FirstOrDefault();
     }
 }

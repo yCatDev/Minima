@@ -180,6 +180,22 @@ namespace SFML.Graphics
                 sfRenderTexture_drawVertexArray(( (RenderTexture)target ).CPointer, CPointer, ref marshaledStates);
             }
         }
+        
+        public void Draw(RenderTarget target, Transform transform)
+        {
+            var states = RenderStates.Default;
+            states.Transform *= transform;
+            RenderStates.MarshalData marshaledStates = states.Marshal();
+
+            if (target is RenderWindow)
+            {
+                sfRenderWindow_drawVertexArray(( (RenderWindow)target ).CPointer, CPointer, ref marshaledStates);
+            }
+            else if (target is RenderTexture)
+            {
+                sfRenderTexture_drawVertexArray(( (RenderTexture)target ).CPointer, CPointer, ref marshaledStates);
+            }
+        }
 
         ////////////////////////////////////////////////////////////
         /// <summary>

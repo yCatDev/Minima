@@ -274,6 +274,22 @@ namespace SFML.Graphics
                 sfRenderTexture_drawVertexBuffer(((RenderTexture)target).CPointer, CPointer, ref marshaledStates);
             }
         }
+        
+        public void Draw(RenderTarget target, Transform transform)
+        {
+            var states = RenderStates.Default;
+            states.Transform *= transform;
+            RenderStates.MarshalData marshaledStates = states.Marshal();
+
+            if (target is RenderWindow)
+            {
+                sfRenderWindow_drawVertexBuffer(( (RenderWindow)target ).CPointer, CPointer, ref marshaledStates);
+            }
+            else if (target is RenderTexture)
+            {
+                sfRenderTexture_drawVertexBuffer(( (RenderTexture)target ).CPointer, CPointer, ref marshaledStates);
+            }
+        }
 
         #region Imports
         [DllImport(CSFML.graphics, CallingConvention = CallingConvention.Cdecl), SuppressUnmanagedCodeSecurity]

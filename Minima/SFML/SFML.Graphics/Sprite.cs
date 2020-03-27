@@ -1,7 +1,7 @@
 ﻿﻿using System;
 using System.Runtime.InteropServices;
 using System.Security;
-using Minima.SFML.Graphics;
+using MinimaFramework;
 using SFML.System;
 
 namespace SFML.Graphics
@@ -156,6 +156,22 @@ namespace SFML.Graphics
         public void Draw(RenderTarget target, RenderStates states)
         {
             states.Transform *= Transform;
+            RenderStates.MarshalData marshaledStates = states.Marshal();
+
+            if (target is RenderWindow)
+            {
+                sfRenderWindow_drawSprite(( (RenderWindow)target ).CPointer, CPointer, ref marshaledStates);
+            }
+            else if (target is RenderTexture)
+            {
+                sfRenderTexture_drawSprite(( (RenderTexture)target ).CPointer, CPointer, ref marshaledStates);
+            }
+        }
+        
+        public void Draw(RenderTarget target, Transform transform)
+        {
+            var states = RenderStates.Default;
+            states.Transform *= transform;
             RenderStates.MarshalData marshaledStates = states.Marshal();
 
             if (target is RenderWindow)

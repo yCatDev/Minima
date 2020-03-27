@@ -1,7 +1,7 @@
 ﻿﻿﻿using System;
 using SFML.Graphics;
 
-namespace Minima.SFML.Graphics
+namespace MinimaFramework
 {
     public interface IDrawObject
     {

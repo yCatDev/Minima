@@ -1,31 +1,27 @@
-﻿using System.Collections.Generic;
-using SFML.Graphics;
+﻿using System;
+using System.Collections.Generic;
 
-
-namespace MinimaEngine
+namespace MinimaFramework
 {
     public class SystemManager
     {
-        private HashSet<ISystem> _systems;
+        private List<GameSystem> _gameSystems;
 
         public SystemManager()
         {
-            _systems = new HashSet<ISystem>();
-            RegisterSystem<RenderSystem>();
-            RegisterSystem<TransformSystem>();
+            _gameSystems = new List<GameSystem>();
         }
 
-        public void RegisterSystem<T>() where T: ISystem, new()
-        {
-            _systems.Add(new T());
-        }
-        
+        public void RegSystem(GameSystem system) => _gameSystems.Add(system);
+
         public void Update()
         {
-            foreach (var system in _systems)
+            for (var index = 0; index < _gameSystems.Count; index++)
             {
-                system.Update();
+                var gameSystem = _gameSystems[index];
+                gameSystem.Update();
             }
         }
+
     }
 }

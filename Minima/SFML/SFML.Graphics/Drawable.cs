@@ -18,5 +18,8 @@
         /// <param name="states">Current render states</param>
         ////////////////////////////////////////////////////////////
         void Draw(RenderTarget target, RenderStates states);
+
+        void Draw(RenderTarget target, Transform transform);
+
     }
 }

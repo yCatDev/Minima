@@ -2,112 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b88686c7-df65-48b3-bb38-887f32dbb9c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/YetAnotherSnake/Systems/MoveSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YetAnotherSnake/YetAnotherSnake.csproj.DotSettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minima/Basis/Components/RenderComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minima/Basis/Components/TransformComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minima/Basis/Systems/RenderSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minima/Basis/Systems/TransformSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minima/Core/GameComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minima/Core/GameSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minima/Core/Managers/GameObjectManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minima/Core/Managers/IDManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minima/Core/Managers/ObjectBuffer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minima/MinimaFramework.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YetAnotherSnake/TestComponents.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Minima/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Minima/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Minima/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Minima/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/Basic/Camera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/Basic/Camera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/Basic/Components/AudioComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/Basic/Components/AudioComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/Basic/Components/RenderComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/Basic/Components/RenderComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/Basic/Components/TransformComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/Basic/Components/TransformComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/Basic/Systems/RenderSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/Basic/Systems/RenderSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/Basic/Systems/TransformSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/Basic/Systems/TransformSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/Core/Component.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/Core/Component.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Basic/Camera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Basic/Components/AudioComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Basic/Components/RenderComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Basic/Components/TransformComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Basic/Systems/RenderSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Basic/Systems/TransformSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Core/Component.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Core/Coroutines.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Minima/Core/GameObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/Core/GameObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/Core/IDrawable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/Core/Managers/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/Core/Managers/InputManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/Core/Scene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/Core/Scene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/Core/Utils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/Minima.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/Minima.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/Listener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/Listener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/Music.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/Music.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/Properties/PublishProfiles/FolderProfile.pubxml" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/Properties/PublishProfiles/FolderProfile.pubxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/SFML.Audio.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/SFML.Audio.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/Sound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/Sound.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/SoundBuffer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/SoundBuffer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/SoundBufferRecorder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/SoundBufferRecorder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/SoundRecorder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/SoundRecorder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/SoundStream.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Audio/SoundStream.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/BlendMode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/BlendMode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/CircleShape.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/CircleShape.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Color.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Color.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/ConvexShape.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/ConvexShape.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Core/Managers/EntityManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Core/Managers/InputManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Core/Managers/SceneManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Core/Managers/SystemManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/Core/Managers/SystemManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Core/Managers/TaskManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Core/Scene.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Core/System.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minima/Minima.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/DrawObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/DrawObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Drawable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Drawable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Font.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Font.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Glsl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Glsl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Glyph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Glyph.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Image.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Image.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/PrimitiveType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/PrimitiveType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Rect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Rect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/RectangleShape.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/RectangleShape.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/RenderStates.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/RenderStates.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/RenderTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/RenderTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/RenderTexture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/RenderTexture.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/RenderWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/RenderWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/SFML.Graphics.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/SFML.Graphics.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Shader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Shader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Shape.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Shape.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Sprite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Sprite.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Text.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Text.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Texture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Texture.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Transform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Transform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Transformable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Transformable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Vertex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Vertex.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/VertexArray.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/VertexArray.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/VertexBuffer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/VertexBuffer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/View.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Net/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Net/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Net/SFML.Net.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Net/SFML.Net.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.System/Clock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.System/Clock.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.System/LoadingFailedException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.System/LoadingFailedException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.System/ObjectBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.System/ObjectBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.System/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.System/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.System/SFML.System.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.System/SFML.System.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.System/SharedLibName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.System/SharedLibName.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.System/StreamAdaptor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.System/StreamAdaptor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.System/Time.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.System/Time.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.System/Vector2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.System/Vector2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.System/Vector3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.System/Vector3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Clipboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Clipboard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Context.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/ContextSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/ContextSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Cursor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Cursor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Event.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/EventArgs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/EventArgs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Joystick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Joystick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Keyboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Keyboard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/LoadingFailedException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/LoadingFailedException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Mouse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Mouse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/SFML.Window.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/SFML.Window.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Sensor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Sensor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Touch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Touch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/VideoMode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/VideoMode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Window.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/SFML/SFML.Window/Window.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minima/bin/Debug/netcoreapp3.1/Minima.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/bin/Debug/netcoreapp3.1/Minima.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minima/bin/Debug/netcoreapp3.1/Minima.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/bin/Debug/netcoreapp3.1/Minima.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minima/obj/Debug/netcoreapp3.1/Minima.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/obj/Debug/netcoreapp3.1/Minima.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minima/obj/Debug/netcoreapp3.1/Minima.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/obj/Debug/netcoreapp3.1/Minima.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minima/obj/Debug/netcoreapp3.1/Minima.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Minima/obj/Debug/netcoreapp3.1/Minima.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YetAnotherSnake/FirstScene.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/YetAnotherSnake/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YetAnotherSnake/TestObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/TestObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YetAnotherSnake/YetAnotherSnake.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/YetAnotherSnake.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YetAnotherSnake/SecondScene.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YetAnotherSnake/Systems/MoveSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YetAnotherSnake/TestObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YetAnotherSnake/TestTestObject.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/YetAnotherSnake/bin/Debug/netcoreapp3.1/Minima.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/bin/Debug/netcoreapp3.1/Minima.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YetAnotherSnake/bin/Debug/netcoreapp3.1/Minima.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/bin/Debug/netcoreapp3.1/Minima.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YetAnotherSnake/bin/Debug/netcoreapp3.1/YetAnotherSnake.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/bin/Debug/netcoreapp3.1/YetAnotherSnake.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YetAnotherSnake/bin/Debug/netcoreapp3.1/YetAnotherSnake.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/bin/Debug/netcoreapp3.1/YetAnotherSnake.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YetAnotherSnake/bin/Debug/netcoreapp3.1/YetAnotherSnake.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/bin/Debug/netcoreapp3.1/YetAnotherSnake.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YetAnotherSnake/obj/Debug/netcoreapp3.1/YetAnotherSnake.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/obj/Debug/netcoreapp3.1/YetAnotherSnake.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YetAnotherSnake/obj/Debug/netcoreapp3.1/YetAnotherSnake.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/obj/Debug/netcoreapp3.1/YetAnotherSnake.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YetAnotherSnake/obj/Debug/netcoreapp3.1/YetAnotherSnake.dll" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/obj/Debug/netcoreapp3.1/YetAnotherSnake.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YetAnotherSnake/obj/Debug/netcoreapp3.1/YetAnotherSnake.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/obj/Debug/netcoreapp3.1/YetAnotherSnake.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YetAnotherSnake/obj/YetAnotherSnake.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/obj/YetAnotherSnake.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YetAnotherSnake/obj/YetAnotherSnake.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/obj/YetAnotherSnake.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YetAnotherSnake/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YetAnotherSnake/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/YetAnotherSnake/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,57 +67,55 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/ConvexShape.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/12/Transformable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/RectangleShape.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/YetAnotherSnake/Systems/MoveSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Audio/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Minima.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Basic/Components/AudioComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Basic/Components/TransformComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Core/Scene.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Core/Managers/EntityManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Basic/Camera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Basic/Components/RenderComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/YetAnotherSnake/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/YetAnotherSnake/TestObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Basic/Systems/RenderSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/YetAnotherSnake/SecondScene.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/YetAnotherSnake/FirstScene.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Core/Managers/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/YetAnotherSnake/TestTestObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Core/Managers/TaskManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Basic/Systems/TransformSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Text.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/2/CircleShape.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/D/Shape.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Shape.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Sprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/0/Drawable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Core/Component.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Core/GameObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E68FBA52-605F-4EEE-8878-3890392BDDFC/E/Sprite.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Core/Managers/SystemManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Core/System.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.System/ObjectBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.System/Time.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Window/Event.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Window/Keyboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Window/Joystick.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/ConvexShape.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/DrawObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Minima/Core/Managers/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Drawable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Glsl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Font.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Glyph.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/RectangleShape.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/RenderStates.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/RenderWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Sprite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Shape.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Text.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Transformable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/VertexArray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Graphics/VertexBuffer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/SFML/SFML.Audio/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BBB3B884-123D-47EA-9CD1-5BED540D02AE/16B/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BBB3B884-123D-47EA-9CD1-5BED540D02AE/3DC/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BBB3B884-123D-47EA-9CD1-5BED540D02AE/DC/Tuple.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/BBB3B884-123D-47EA-9CD1-5BED540D02AE/3B/Type.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/MinimaFramework.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/Core/GameComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/Core/GameObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/Core/GameSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/Core/Managers/GameObjectManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/Core/Managers/ObjectBuffer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/Core/Managers/IDManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YetAnotherSnake/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YetAnotherSnake/TestComponents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F0A82E3D-5818-485E-8847-BD7261A898CB/5/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/Basis/Components/RenderComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/Basis/Systems/RenderSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/Basis/Components/TransformComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/Basis/Systems/TransformSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minima/Core/Managers/SystemManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Minima/Program.cs" />
-        <option value="$PROJECT_DIR$/Minima/Class1.cs" />
-        <option value="$PROJECT_DIR$/Minima/Core/SystemManager.cs" />
-        <option value="$PROJECT_DIR$/Minima/Basic/Components/Transform.cs" />
-        <option value="$PROJECT_DIR$/Minima/Basic/Components/Audio.cs" />
-        <option value="$PROJECT_DIR$/Minima/Core/EntityManager.cs" />
-        <option value="$PROJECT_DIR$/Minima/Core/SceneManager.cs" />
-        <option value="$PROJECT_DIR$/Minima/Basic/Components/Render.cs" />
-        <option value="$PROJECT_DIR$/Minima/Core/Managers/SceneManager.cs" />
-        <option value="$PROJECT_DIR$/Minima/Core/Managers/EntityManager.cs" />
-        <option value="$PROJECT_DIR$/YetAnotherSnake/SecondScene.cs" />
-        <option value="$PROJECT_DIR$/Minima/Core/Scene.cs" />
-        <option value="$PROJECT_DIR$/YetAnotherSnake/FirstScene.cs" />
         <option value="$PROJECT_DIR$/Minima/Core/IDrawable.cs" />
         <option value="$PROJECT_DIR$/Minima/Core/System.cs" />
         <option value="$PROJECT_DIR$/Minima/Core/Managers/InputManager.cs" />
@@ -179,25 +126,47 @@
         <option value="$PROJECT_DIR$/Minima/SFML/SFML.Window/Properties/AssemblyInfo.cs" />
         <option value="$PROJECT_DIR$/Minima/SFML/SFML.System/Properties/AssemblyInfo.cs" />
         <option value="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Properties/AssemblyInfo.cs" />
-        <option value="$PROJECT_DIR$/Minima/Core/Managers/SystemManager.cs" />
         <option value="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/RectangleShape.cs" />
-        <option value="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Sprite.cs" />
         <option value="$PROJECT_DIR$/Minima/Core/Utils.cs" />
         <option value="$PROJECT_DIR$/Minima/Basic/Camera.cs" />
-        <option value="$PROJECT_DIR$/Minima/Minima.cs" />
-        <option value="$PROJECT_DIR$/YetAnotherSnake/Program.cs" />
         <option value="$PROJECT_DIR$/YetAnotherSnake/TestObject.cs" />
         <option value="$PROJECT_DIR$/Minima/Basic/Systems/TransformSystem.cs" />
-        <option value="$PROJECT_DIR$/Minima/Basic/Systems/RenderSystem.cs" />
         <option value="$PROJECT_DIR$/YetAnotherSnake/Systems/MoveSystem.cs" />
-        <option value="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Shape.cs" />
-        <option value="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/DrawObject.cs" />
-        <option value="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Text.cs" />
-        <option value="$PROJECT_DIR$/Minima/Core/Component.cs" />
-        <option value="$PROJECT_DIR$/Minima/Core/GameObject.cs" />
         <option value="$PROJECT_DIR$/Minima/Basic/Components/AudioComponent.cs" />
         <option value="$PROJECT_DIR$/Minima/Basic/Components/TransformComponent.cs" />
+        <option value="$PROJECT_DIR$/YetAnotherSnake/FirstScene.cs" />
+        <option value="$PROJECT_DIR$/Minima/Core/Scene.cs" />
+        <option value="$PROJECT_DIR$/Minima/Basic/Components/BasicComponent.cs" />
+        <option value="$PROJECT_DIR$/Minima/Minima.cs" />
+        <option value="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Drawable.cs" />
+        <option value="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Shape.cs" />
+        <option value="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Text.cs" />
+        <option value="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/VertexArray.cs" />
+        <option value="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/VertexBuffer.cs" />
+        <option value="$PROJECT_DIR$/Minima/Core/Managers/EntityManager.cs" />
+        <option value="$PROJECT_DIR$/Minima/Core/Interfaces/System.cs" />
+        <option value="$PROJECT_DIR$/Minima/Basic/Systems/RenderSystem.cs" />
         <option value="$PROJECT_DIR$/Minima/Basic/Components/RenderComponent.cs" />
+        <option value="$PROJECT_DIR$/Minima/Core/Interfaces/Component.cs" />
+        <option value="$PROJECT_DIR$/Minima/Core/SystemBuffer.cs" />
+        <option value="$PROJECT_DIR$/Minima/Core/Component.cs" />
+        <option value="$PROJECT_DIR$/Minima/Core/Utils/UniversalIDGenerator.cs" />
+        <option value="$PROJECT_DIR$/Minima/Core/Managers/IDManager.cs" />
+        <option value="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/DrawObject.cs" />
+        <option value="$PROJECT_DIR$/Minima/SFML/SFML.Graphics/Sprite.cs" />
+        <option value="$PROJECT_DIR$/YetAnotherSnake/TestComponents.cs" />
+        <option value="$PROJECT_DIR$/Minima/Core/GameComponent.cs" />
+        <option value="$PROJECT_DIR$/Minima/Core/Managers/GameObjectManager.cs" />
+        <option value="$PROJECT_DIR$/Minima/Basis/Components/RenderComponent.cs" />
+        <option value="$PROJECT_DIR$/Minima/Core/Managers/ObjectBuffer.cs" />
+        <option value="$PROJECT_DIR$/Minima/Core/GameObject.cs" />
+        <option value="$PROJECT_DIR$/Minima/Basis/Systems/RenderSystem.cs" />
+        <option value="$PROJECT_DIR$/Minima/Basis/Components/TransformComponent.cs" />
+        <option value="$PROJECT_DIR$/Minima/Basis/Systems/TransformSystem.cs" />
+        <option value="$PROJECT_DIR$/Minima/Core/GameSystem.cs" />
+        <option value="$PROJECT_DIR$/Minima/Core/Managers/SystemManager.cs" />
+        <option value="$PROJECT_DIR$/YetAnotherSnake/Program.cs" />
+        <option value="$PROJECT_DIR$/Minima/MinimaFramework.cs" />
       </list>
     </option>
   </component>
@@ -214,6 +183,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunManager">
     <configuration name="Minima" type="DotNetProject" factoryName=".NET Project">
@@ -273,22 +243,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="644" y="191" key="#Minima/0.0.1920.1040@0.0.1920.1040" timestamp="1585137122515" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585165498637">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585269547622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585165498637" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585165498637">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585269547622" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585269547622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585165498637" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585165498637">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585269547622" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585269547622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585165498637" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585165498637">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585269547622" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585269547622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585165498637" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585269547622" />
     <state x="552" y="251" key="Rider.ProjectTemplateDialog.Size" timestamp="1585135980686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -297,13 +267,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="235" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585148373222" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1585156323953">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1585254622311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585156323953" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585162785919">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585254622311" />
+    <state x="638" y="252" width="737" height="606" key="find.popup" timestamp="1585269177593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585162785919" />
+    <state x="638" y="252" width="737" height="606" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585269177593" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1585259723267">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585259723267" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585254743080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585254743080" />
   </component>
 </project>
