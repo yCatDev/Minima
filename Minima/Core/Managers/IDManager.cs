@@ -1,4 +1,7 @@
-﻿namespace MinimaFramework
+﻿using System;
+using System.Collections.Generic;
+
+namespace MinimaFramework
 {
     internal static class IDManager
     {
@@ -22,4 +25,20 @@
         public ObjectID()
             => id = IDManager.GenNext();
     }
+
+    public class SceneID
+    {
+        private static List<string> names = new List<string>();
+        private int id;
+
+        public SceneID(string name)
+        {
+            if (names.Contains(name))
+                throw new Exception($"Scene with name: {name} already created");
+            
+            names.Add(name);
+            id = IDManager.GenNext();
+        }
+    }
+    
 }

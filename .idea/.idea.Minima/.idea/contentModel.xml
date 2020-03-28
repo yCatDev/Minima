@@ -17,6 +17,7 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Core" t="Include">
+          <e p="Camera.cs" t="Include" />
           <e p="GameComponent.cs" t="Include" />
           <e p="GameObject.cs" t="Include" />
           <e p="GameSystem.cs" t="Include" />
@@ -24,8 +25,11 @@
             <e p="GameObjectManager.cs" t="Include" />
             <e p="IDManager.cs" t="Include" />
             <e p="ObjectBuffer.cs" t="Include" />
+            <e p="SceneManager.cs" t="Include" />
             <e p="SystemManager.cs" t="Include" />
           </e>
+          <e p="Scene.cs" t="Include" />
+          <e p="SpriteBatch.cs" t="Include" />
         </e>
         <e p="Minima.csproj" t="IncludeRecursive" />
         <e p="MinimaFramework.cs" t="Include" />
@@ -126,6 +130,7 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="YetAnotherSnake" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Move.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
